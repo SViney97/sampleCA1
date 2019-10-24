@@ -36,6 +36,7 @@ namespace sampleCA1
             allplayers.Reverse();
 
             WriteLine($"highest score is {Player.HighScore}");
+            WriteLine();
         }
 
         private static void GetScores(List<Player> allplayers)
